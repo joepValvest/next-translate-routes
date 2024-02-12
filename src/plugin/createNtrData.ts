@@ -12,6 +12,7 @@ export const createNtrData = (nextConfig: NTRNextConfig, customPagesPath?: strin
   const pagesPath = customPagesPath || getPagesPath(pagesDirectory)
 
   const routesTree = customRoutesTree || parsePages({ directoryPath: pagesPath, pageExtensions, routesDataFileName })
+  // TODO: validateRoutesTree(routesTree)
 
   return {
     debug,
@@ -21,3 +22,5 @@ export const createNtrData = (nextConfig: NTRNextConfig, customPagesPath?: strin
     fallbackLng,
   }
 }
+
+export default createNtrData

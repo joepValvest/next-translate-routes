@@ -1,8 +1,0 @@
-{
-  "/": ":communityId(\\d+){-:communitySlug}",
-  "statistics": {
-    "fr": "statistiques",
-    "es": "estadisticas",
-    "pt": "estatisticas"
-  }
-}
