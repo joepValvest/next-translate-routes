@@ -3,7 +3,7 @@
   "version": "1.10.2",
   "description": "Flexible and translated routes for Next.js without custom server",
   "main": "index.js",
-  "repository": "https://github.com/hozana/next-translate-routes",
+  "repository": "https://github.com/joepValvest/next-translate-routes",
   "author": "cvolant",
   "license": "MIT",
   "keywords": [
